@@ -58,7 +58,6 @@
         
     <main class="form-signin w-100 m-auto">
       <form>
-        <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
         <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
     
         <div class="form-floating">
@@ -77,13 +76,18 @@
           </label>
         </div>
         <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-body-secondary">© 2017–2024</p>
+        <p class="mt-5 mb-3 text-body-secondary"></p>
       </form>
+      <div class="d-flex gap-2 justify-content-center py-5">
+        <button class="btn btn-primary" type="button" disabled="">
+          <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+          <span class="visually-hidden" role="status">Loading...</span>
+        </button>
+        <button class="btn btn-primary" type="button" disabled="">
+          <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+          <span role="status">Loading...</span>
+        </button>
+      </div>
     </main>
-    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-        
-    
-    </body>
-</body>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  </body>
 </html>
